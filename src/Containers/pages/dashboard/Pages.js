@@ -2,7 +2,7 @@ import NewPost from "../../../components/NewPost/NewPost";
 import Posts from "../../Posts/Posts"; 
 import PostDetails from "../../../Components/PostDetails/PostDetails";
 import {
-     Navigate,
+    Navigate,
      Routes,
      Route,
  } from "react";
