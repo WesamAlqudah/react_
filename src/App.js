@@ -1,5 +1,5 @@
 import './App.css'
-import Dashboard from './Containers/pages/dashboard/Dashboard';
+import Dashboard from './pages/dashboard/Dashboard';
 import{BrowserRouter} from "react";
 
 

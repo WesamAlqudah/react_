@@ -2,9 +2,9 @@ import {useState, useEffect, useContext} from "react";
 import Post from "../../components/Post/Post";
 import axios from "axios";
 import {Link} from "react-router-dom";
-import { Selected } from "../store/selected";
+import { Selected } from "../../store/selected";
 import PostDetails from "../../Components/PostDetails/PostDetails";
-import {PostContext} from "../pages/dashboard/Dashboard"
+import {PostContext} from "../../pages/dashboard/Dashboard"
 
 const Posts = (props) => {
     console.log("Post UPDATE");

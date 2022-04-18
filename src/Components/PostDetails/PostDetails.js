@@ -3,7 +3,7 @@ import {useEffect, useState, Fragment, useContext} from "react";
 import Comment from "../Comment/Comment";
 import './PostDetails.css';
 import Comments from "../../containers/Comments/Coments";
-import {PostContext} from "../../Containers/pages/dashboard/Dashboard";
+import {PostContext} from "../../pages/dashboard/Dashboard";
 import { useNavigate,useParams } from 'react';
 
 

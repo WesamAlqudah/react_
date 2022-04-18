@@ -2,7 +2,7 @@ import React from 'react'
 import Comment from "../../components/Comment/Comment"
 
 const Comments = (props) => {
-    console.log("sda",props.comment)
+    console.log("test",props.comment)
     const comments = props.comment.map((comment) => {
         return <Comment key={comment.id} comment={comment}/>;
     });
@@ -10,3 +10,4 @@ const Comments = (props) => {
 };
 
 export default Comments;
+
