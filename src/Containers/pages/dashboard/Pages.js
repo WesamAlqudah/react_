@@ -6,7 +6,7 @@ import {
      Navigate,
      Routes,
      Route,
- } from "react-router-dom";
+ } from "react";
 
 
 const PageRoutes = () => (

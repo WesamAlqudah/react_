@@ -1,15 +1,20 @@
-import {useState} from 'react';
-import './App.css';
-import Post from './Components/Post/Post';
-import Posts from './Containers/Posts/Posts';
-import Dashboard from './Containers/Dashboard';
+import './App.css'
+import Dashboard from './Containers/pages/dashboard/Dashboard';
+import{BrowserRouter} from "react";
+
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <h3>MIU </h3>
-      <Dashboard />
-    </div>
+      <BrowserRouter>
+          <div className="App">
+              <h1> Welcome WAA </h1>
+              <Dashboard/>
+
+          </div>
+      </BrowserRouter>
   );
 }
 
