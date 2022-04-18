@@ -5,9 +5,8 @@ import Post from "../../../components/Post/Post";
 import Posts from "../../Posts/Posts";
 import { ThemeColorContext } from "../../store/ThemeColor";
 import Pages  from "./Pages";
-import Header from "../../headers/headers";
-import '../../containers/headers/Header.css';
-
+import Header from "../../headers/Header";
+import "../../headers/Header.css"
 
 const Dashboard = () => {
     return (
