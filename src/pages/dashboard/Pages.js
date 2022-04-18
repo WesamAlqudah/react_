@@ -1,14 +1,12 @@
-import NewPost from "../../../components/NewPost/NewPost";
-import Posts from "../../Posts/Posts"; 
-import PostDetails from "../../../Components/PostDetails/PostDetails";
-import {
-    Navigate,
-     Routes,
-     Route,
- } from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import NewPost from "../../components/NewPost/NewPost";
+import Posts from "../../Containers/Posts/Posts"; 
+import PostDetails from "../../Components/PostDetails/PostDetails";
 
 
-const PageRoutes = () => (
+const PageRoutes = () => {
+    
+    return (
 
     <Routes>
         <Route path="/" element={<Navigate replace to="/posts"/>}/>
@@ -18,6 +16,7 @@ const PageRoutes = () => (
 
         <Route path="newPost" element={<NewPost/>}/>
     </Routes>
-)
+);
 
+}
 export default PageRoutes;
